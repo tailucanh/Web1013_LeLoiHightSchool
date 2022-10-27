@@ -1,0 +1,1366 @@
+
+/*-------------- TRANG CHỦ ----------------*/
+body{
+    background-color: #e7e1e1;
+}
+.container{
+    position: relative;
+    margin: 0 auto;
+    width: 1185px;
+    box-shadow:#9a8c8c 2px 3px 5px 4px;
+    background-color: white;
+}
+.container header{
+    background-image: url(../Tainguyen/Background/banner.png);
+    background-size: 100% 100%;
+    border-radius: 5px;
+    height: 360px;
+    margin-top: 20px;
+    
+}
+.container .menu{
+    color: wheat;
+    background-color: #c90741;
+    height: 65px;
+    border-radius: 0 0 5px 5px; 
+    font-size: 0;
+    margin-bottom: 10px;  
+}
+
+.container .menu .icon_home img{
+    float: left;
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
+.container .menu > ul > li{
+    float: left;
+    margin: 0 10px 10px 60px;
+    list-style: none;
+}
+.container .menu > ul{
+    width: 1180px;
+}
+.container .menu > ul > li >a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    line-height: 65px;
+}
+.container .menu > ul > li >a:hover{
+    color:rgb(199, 180, 180);
+}
+
+.container .menu ul  ul{
+    position: absolute;
+    padding: 0;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: #c90741;
+    border-radius: 0 0 10px 10px;
+    
+}
+
+.container .menu ul ul a{
+    display: block;
+    margin-left: 10px;
+    line-height: 7px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: left;
+    padding: 30px 0 27px 0;
+    
+}
+.container .menu > ul > li:hover > ul{
+    display: block;
+  
+}
+.container .menu ul ul a:hover{
+    color:rgb(199, 180, 180);
+    border-radius: 0 0 10px 10px;
+}
+.container .menu .icon-search img{
+    width: 30px;
+    float: left;
+    margin: 15px 0 0 55px;
+}
+.container .menu .search {
+    float: right;
+    width: 200px;
+    height: 35px;
+}
+.container .menu .search input::placeholder{
+    color: white;
+    padding-left: 10px;
+}
+
+.container .menu .search input {
+    float: right;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 17px;
+    background: transparent;
+    border: 1px solid rgb(255, 249, 249);
+    outline: none;
+    border-radius: 4px;
+    margin: 10px 10px 0 50px;
+    backdrop-filter: blur(10px);
+    padding-left: 10px;
+}
+
+
+
+/*------------------------------*/
+
+
+.container  aside .box1{
+    float: left;
+    width: 380px;
+    height: 650px;
+    font-size: 0;
+}
+
+.container  aside .box1 .box{
+    border: 4px solid #cc095a;
+    background: url("../Tainguyen/Background/icons/right-arrow.png") no-repeat  right;
+    background-size: 20px 20px;
+    width: 370px;
+    height: 60px;
+    margin-bottom: 23px;
+    border-radius: 10px;
+    margin-left:15px;
+    
+}
+.container  aside .box1 .box:hover{
+    background: url("../Tainguyen/Background/icons/arrowhover.png") no-repeat  right;
+    background-size: 20px 20px;
+    border: 4px solid #f83d75;
+    background-color: #f83d75;
+}
+
+.container  aside .box1 .box a{
+    text-align: center;
+    display: block;
+    width: 370px;
+    line-height: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 760;
+    color: #cc095a;
+    text-decoration: none;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.container  aside .box1 .box a:hover{
+    color: #fffdfd;
+    width: 370px;
+    height: 60px;
+    text-decoration: none;
+   
+}
+
+.container  aside .box2 video {
+    width: 760px;
+    height: 610px;
+    margin: 0 10px 0 29px;
+    border-radius: 10px;
+}
+
+
+/*------------------------------*/
+.container article > .box-nd{
+    display: inline-flex;
+    flex-direction: row;
+    z-index: 0;
+}
+
+.container .box-nd .box-tp{
+   margin-bottom: 50px;
+   font-size: 0;
+
+}
+.container .box-nd .box-tp img{
+    float: left;
+    width: 60px;
+    margin:  0 20px 0 30px;
+    
+}
+
+.container .box-nd .box-tp .title1 a{
+    position: relative;
+    color: rgb(104, 104, 212);
+    text-decoration: none;
+    font-size:35px;
+    font-family: 'Dancing Script', cursive;
+  
+}
+.container .box-nd .box-tp .title1 a:hover{
+    color: #a5aedc
+}
+.container .box-nd .box-tp  .hr1{
+    border: 1px;
+    border-radius: 20px;
+    float: left;
+    width: 360px;
+    box-shadow: 0 0 2px 2px pink;
+    margin: 10px 0 0 3px;
+}
+
+.container .box-nd   .box-tp  .tinTuc {
+    font-size: 0;
+    max-width: 410px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.container .box-nd   .box-tp  .tinTuc a > img:hover{
+    box-shadow: 5px 2px 10px 5px rgb(255, 252, 83);   
+}
+
+.container .box-nd  .box-tp  .tinTuc a > img{
+    display: block;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 7px gray;   
+}
+.container .box-nd .box-tp .tinTuc > p {
+    padding-top: 10px;
+    width: 400px;
+    display: table-cell;
+}
+.container .box-nd .box-tp .tinTuc p > a{
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 540;
+    text-decoration: none;
+    color: black;
+}   
+.container .box-nd .box-tp .extend{
+    float: right;
+    margin: 0 10px 0 0;
+}
+.container .box-nd .box-tp .extend > a{
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+
+}
+.container .box-nd .box-tp .extend > a:hover{
+    color: rgb(5, 5, 105);
+    text-decoration:underline;
+}
+
+
+.container .box-nd .box-tp .title2  a{
+    position: relative;
+    color: rgb(59, 55, 55);
+    font-size:35px;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 10px;
+}
+.container .box-nd .box-tp .title2  a:hover{
+    color: gray;
+}
+.container .box-nd .box-tp  .hr2{
+    border: 1px;
+    border-radius: 20px;
+    float: left;
+    width: 363px;
+    box-shadow: 0 0 2px 2px rgb(167, 211, 224);
+    margin: 10px 0 0 3px;
+}
+.container .box-nd   .box-tp  .tinTuc2 {
+    font-size: 0;
+    max-width: 400px;
+    margin-top: 45px;
+    margin-bottom: 59px;
+}
+
+.container .box-nd  .box-tp  .tinTuc2 a > img{
+    display: block;
+    width: 135px;
+    border-radius: 10px;
+    height: 190px;
+    box-shadow: 2px 3px 7px gray; 
+}
+.container .box-nd   .box-tp  .tinTuc2 a > img:hover{
+    box-shadow: 5px 2px 10px 5px rgb(255, 252, 83);   
+}
+
+.container .box-nd .box-tp .tinTuc2 > p {
+    padding-top: 45px;
+    height: 130px;
+}
+.container .box-nd .box-tp .tinTuc2 p > a{
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 540;
+    text-decoration: none;
+    color: black;
+}   
+
+
+.container .box-nd .box-tp .title3 a{
+    position: relative;
+    color: rgb(83, 119, 83);
+    text-decoration: none;
+    font-size:35px;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 10px;
+}
+.container .box-nd .box-tp .title3 a:hover{
+    color: rgb(135, 198, 138);
+}
+.container .box-nd .box-tp  .hr3{
+    border: 1px;
+    border-radius: 20px;
+    float: left;
+    width: 392px;
+    box-shadow: 0 0 2px 2px rgb(130, 187, 137);
+    margin: 10px 0 0 3px;
+}
+
+.container .box-nd   .box-tp  .tinTuc3 {
+    font-size: 0;
+    max-width: 400px;
+    margin-top: 50px;
+}
+
+.container .box-nd  .box-tp  .tinTuc3 a > img{
+    display: block;
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 6px gray;
+}
+.container .box-nd   .box-tp  .tinTuc3 a > img:hover{
+    box-shadow: 5px 2px 10px 5px rgb(255, 252, 83);   
+}
+
+.container .box-nd .box-tp .tinTuc3 > p {
+    padding-top: 45px;
+    margin-bottom: 60px;
+}
+.container .box-nd .box-tp .tinTuc3  p > a{
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 100px;
+    text-decoration: none;
+    color: black;
+}   
+.container .box-nd .box-tp .sub-content {
+   max-width: 400px;
+   margin: 50px 0 0 40px;
+}
+
+.container .box-nd .box-tp  .sub-content  video{
+    width: 330px;
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px gray;
+}
+
+
+.container article .box-data{
+    display: inline-flex;
+    margin: 0 auto;
+}
+.container .box-data .data{
+   margin: 0 5px 30px 50px;
+   
+   
+}
+.container .box-data .data a > img{
+    width: 290px;
+    height: 178px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-bottom: 13px;
+    box-shadow: 2px 3px 7px gray;
+    border-radius: 3px;
+}
+
+.container .box-data .data .data-video  video{
+    width: 290px;
+    height: 190px;
+    box-shadow: 2px 3px 10px gray;
+    margin: 0 0 0 15px;
+}
+.container .box-data .data .data-note{
+    text-align: center;
+    padding-top: 12px;
+    margin-top: 30px;
+    border: 4px solid #cc095a;
+    width: 320px;
+    height: 40px;
+    border-radius: 10px;
+}
+.container .box-data .data .data-note:hover{
+    border: 4px solid #f83d75;
+    background-color: #f83d75;
+}
+.container .box-data .data .data-note a{
+    font-size: 25px;
+    width: 320px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #cc095a;
+    text-decoration: none;
+}
+.container .box-data .data .data-note a:hover{
+    color: white;
+    width: 320px;
+    height: 40px;
+}
+
+
+/*------------------------------*/
+
+.container  footer{
+    text-align: center;
+    clear: both;
+    height: 260px;
+    background-color: #c90741;
+    margin-bottom: 20px;
+    border-radius: 0 0 5px 5px;
+}
+
+.container  footer h1{
+    padding-top: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: rgb(250, 242, 242);
+}
+.container  footer p{
+    font-size: 20px;
+    color: rgb(231, 226, 226);
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container  footer .finish{
+    text-align: center;
+    margin-left: 40px;
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(177, 165, 165);
+    font-weight: bold;
+
+}
+.container  footer .finish img{
+    width: 30px;
+    float: right;
+    margin: 0 20px 50px 0 ;
+}
+
+/*-------------- LỊCH SỬ ----------------*/
+.container  .history{
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+.container  .history .box-title{
+    padding-left: 10px;
+    margin: 15px 0 0 20px;
+    height: 105px;
+    width: 1140px;
+    border-left: 15px solid #c90741;
+    border-bottom: 3px solid #c90741;
+    border-radius: 3px;
+    background-color: #fdf7f7;
+}
+
+
+.container  .history .box-title h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Signika', sans-serif;
+    font-size: 37px;
+    color: #c90741;
+    margin: 40px 0;
+    padding-top: 15px;
+}
+.container  .history .box-title  span{
+    width: 1000px;
+    line-height: 10px;
+    font-size: 20px;
+    color: rgb(92, 90, 90);
+    padding: 0;
+}
+.container  .history .hr-history{
+    width: 1160px;
+    margin: 90px 0 30px 10px;
+}
+.container  .history .box-history{
+    text-align: justify;
+    clear: both;
+    width: 1120px;
+    padding-left: 30px;
+    
+}
+.container  .history .box-history span{
+    font-size: 20px;
+}
+.container  .history .box-history .img1{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0;
+    padding-bottom: 15px; 
+}
+.container  .history .box-history .img1 img{
+    text-align: center;
+    width: 1000px;
+    height: 450px;
+    border-radius: 5px;
+    padding-bottom: 10px; 
+ 
+}
+.container  .history .box-history .img1 a{
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: gray;
+    
+}
+
+.container  .history .box-history .img2{
+    margin: 30px 0 20px 0;
+    text-align: left;
+    font-size: 0;
+}
+.container  .history .box-history .img2 img{
+    width: 700px;
+    height: 450px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.container  .history .box-history .img2 p {
+    padding-left: 140px;
+}
+.container  .history .box-history .img2 p a{
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: gray;
+   
+}
+
+.container  .history .box-history .img3{
+    margin: 10px 0 20px 0;
+    height: 465px;
+    display: flex;
+
+}
+
+.container  .history .box-history .img3 img{
+    width: 560px;
+    height: 350px;
+    border-radius: 10px;
+    font-size: 0;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+
+.container  .history .box-history .img4{
+    margin-top: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.container  .history .box-history .img4 img{
+    text-align: center;
+    padding-left: 65px;
+    width: 470px;
+    height: 310px;
+    border-radius: 15px;
+}
+.container  .history .box-history .img5{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0;
+}
+.container  .history .box-history .img5 img{
+    width: 1070px;
+    height: 450px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.container  .history .box-history .img5 p{
+    padding-bottom: 20px;
+}
+.container  .history .box-history .img5 p a{
+    font-size: 18px;
+    text-decoration: none;
+    color: gray;
+}
+
+/*-------------- Cơ cấu tổ chức ----------------*/
+
+
+
+.container aside > .box-tochuc1{
+    float: right;
+    width: 385px;
+    height: 700px;
+    margin-left: 10px;
+}
+
+.container aside .box-tochuc1 > .tochuc1-title{
+    height: 45px;   
+    width: 370px;
+    margin-top: 25px;
+    border-left: 8px solid #c90741;
+    border-bottom: 2px solid #c90741;
+    background-color: #fdf7f7;
+    
+}
+.container aside .box-tochuc1  .tochuc1-title h1{
+    padding: 7px 0 0 25px;
+    color: #c90741;
+    font-size: 25px;
+}
+.container aside .box-tochuc1 .tochuc1-noidung{
+    height: 400px;
+    width: 376px;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    border: none;
+    box-shadow: 0 0 4px gray;
+    overflow: scroll;
+    margin-left: 1px;
+    
+}
+
+.container aside .box-tochuc1 .tochuc1-noidung .tochuc1-tintuc{
+    display: inline-block;
+    padding: 10px 7px 15px 7px;
+    font-size: 0;
+}
+.container aside .box-tochuc1 .tochuc1-noidung  hr{
+    float: left;
+    width: 220px;
+    font-size: 0;
+    margin-top: 1px;
+}
+.container aside .box-tochuc1 .tochuc1-noidung .tochuc1-tintuc img{
+    float: right;
+    width: 160px;
+    height: 100px;
+    margin-left: 5px;
+    box-shadow: 2px 3px 7px gray;  
+}
+.container aside .box-tochuc1 .tochuc1-noidung .tochuc1-tintuc h3 {
+    margin: 15px 0 0 15px;
+}
+.container aside .box-tochuc1 .tochuc1-noidung .tochuc1-tintuc a {
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+.container aside .box-tochuc1 .tochuc1-noidung .tochuc1-tintuc a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+
+.container aside .box-tochuc1 .tochuc1-lienket{
+    height: 513px;
+    width: 376px;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    border: none;
+    box-shadow: 0 0 4px gray;
+    border-radius: 0 0 5px 5px;
+}
+
+.container article .box-tochuc2{
+    float: left;
+    width: 790px;
+}
+.container article .box-tochuc2 > .tochuc2-title{
+    margin: 0 auto;
+    height: 45px;
+    width: 760px;
+    border-left: 8px solid #c90741;
+    border-bottom: 2px solid #c90741;
+    background-color: #fdf7f7;
+}
+.container article .box-tochuc2 > .tochuc2-title h1{
+    padding: 5px 0 0 30px;
+    color: #c90741;
+    font-size: 30px;
+}
+.container article .box-tochuc2 > .tochuc2-date{
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid rgb(221, 216, 216);
+    width: 720px;
+    height: 40px;
+    background-color: rgb(221, 216, 216);
+    border-radius: 5px;
+}
+.container article .box-tochuc2 > .tochuc2-date p{
+    float: left;
+    line-height: 10px;
+    margin-left: 20px;
+    
+}
+.container article .box-tochuc2 > .tochuc2-date h4{
+    float: right;
+    line-height: 1px;
+    margin-right: 10px;
+    font-weight: 100;
+}
+.container article .box-tochuc2 .tochuc2-noidung{
+    margin: 0 auto;
+    width: 780px;
+}
+.container article .box-tochuc2 .tochuc2-noidung h1{
+    font-weight: 550;
+    width: 700px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.container article .box-tochuc2 .tochuc2-noidung > h2{
+    padding-left: 30px;
+    font-size: 20px;
+    line-height: 5px;
+    max-width: 200px;
+}
+.container article .box-tochuc2 .tochuc2-noidung > h3{
+    padding-left: 35px;
+    font-style: oblique;
+    font-weight: 550;
+    width: 285px;
+}
+.container article .box-tochuc2 .tochuc2-noidung > ol{
+    float: left;
+    margin-left: 40px;
+    margin-right: 140px;
+}
+.container article .box-tochuc2 .tochuc2-noidung > ol li{
+    padding: 0 0 15px 5px;
+    font-size: 17px;
+    
+}
+.container article .box-tochuc2 .tochuc2-noidung > ul{
+   padding-top: 16px;
+    list-style-type: none;
+}
+.container article .box-tochuc2 .tochuc2-noidung >  ul li{
+    padding: 0 0 15px 0;
+    font-size: 17px
+}
+
+
+
+/*-------------- Liên hệ ----------------*/
+
+.container article .box-lienhe{
+    min-height:200px ;
+}
+
+.container article .box-lienhe > .lienhe-title{
+    height: 45px;
+    width: 1100px;
+    margin: 25px 0 0 50px;
+    border-left: 8px solid #c90741;
+    border-bottom: 2px solid #c90741;
+    background-color: #fdf7f7;
+}
+.container article .box-lienhe .lienhe-title h1{
+    padding: 7px 0 0 25px;
+    color: #c90741;
+    font-size: 27px;
+}
+.container article .box-lienhe .lienhe-diachi{
+    margin: 20px 0 10px 60px;
+    width: 900px;
+    color: #c90741;
+}
+.container article .box-lienhe .lienhe-diachi p{
+    font-size: 0;
+    font-size: 17px;
+}
+.container article .box-lienhe .lienhe-map{
+    margin: 0 auto;
+    width: 1100px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+.container article .box-lienhe .lienhe-map iframe{
+    width: 1100px;
+    height: 400px;
+}
+.container article .box-lienhe .lienhe-form{
+    margin: 0 auto;
+    width: 1160px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 5px;
+    background-color: white;
+}
+.container article .box-lienhe .lienhe-form .form1{
+    float: left;
+    width: 580px;
+    height: 110px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+.container article .box-lienhe .lienhe-form .form1 label{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 18px;
+}
+
+.container article .box-lienhe .lienhe-form .form1 input{
+    width: 510px;
+    height: 40px;
+    border: none; 
+    border-radius: 4px;
+    box-shadow: 0 0 3px gray;
+    color: gray;
+    padding-left: 10px;
+    font-size: 15px;
+    margin: 10px 30px 0 25px;
+    outline: none;
+}
+.container article .box-lienhe .lienhe-form .form1 input:focus{
+    box-shadow: 0 0 3px orangered;  
+    color: black;
+}
+
+
+.container article .box-lienhe .lienhe-form .form2{
+    clear: both;
+    width: 1160px;
+    height: 110px;
+}
+.container article .box-lienhe .lienhe-form .form2 label{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 18px;
+}
+
+.container article .box-lienhe .lienhe-form .form2 input{
+    width: 1090px;
+    height: 40px;
+    border: none; 
+    border-radius: 4px;
+    box-shadow: 0 0 3px gray;
+    color: gray;
+    padding-left: 10px;
+    font-size: 15px;
+    margin: 10px 30px 0 25px;
+    outline: none;
+}
+.container article .box-lienhe .lienhe-form .form2 input:focus{
+    box-shadow: 0 0 3px orangered;  
+    color: black;
+}
+
+
+.container article .box-lienhe .lienhe-form .form3{
+    margin-top: 5px;
+    width: 1160px;
+    height: 245px;
+}
+.container article .box-lienhe .lienhe-form .form3 label{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 18px;
+}
+
+.container article .box-lienhe .lienhe-form .form3 textarea{
+    width: 1090px;
+    height: 200px;
+    border: none; 
+    border-radius: 4px;
+    box-shadow: 0 0 3px gray;
+    padding-left: 10px;
+    font-size: 20px;
+    margin: 10px 30px 0 25px;
+    outline: none;
+}
+.container article .box-lienhe .lienhe-form .form3 textarea:focus{
+    box-shadow: 0 0 3px orangered;  
+    color: black;
+}
+
+
+.container article .box-lienhe .lienhe-form .form4{
+    width: 300px;
+    height: 50px;
+}
+.container article .box-lienhe .lienhe-form .form4 label{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container article .box-lienhe .lienhe-form .form4 input{
+    margin-left: 25px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+
+.container article .box-lienhe .lienhe-form > button{
+    border: none;
+    width: 90px;
+    height: 30px;
+    box-shadow: 0 0 3px gray;
+    border-radius: 3px;
+    outline: none;
+    margin: 0 0 40px 30px;
+}
+.container article .box-lienhe .lienhe-form > button:hover{
+    box-shadow: 0 0 3px orangered;  
+}
+
+
+/*-------------- Góp ý ----------------*/
+
+.container article .gopy-title{
+    height: 45px;
+    width: 750px;
+    margin: 35px 0 30px 35px;
+    border-left: 8px solid #c90741;
+    border-bottom: 2px solid #c90741;
+    background-color: #fdf7f7;
+}
+.container article .gopy-title h1{
+    padding: 7px 0 0 25px;
+    color: #c90741;
+    font-size: 27px;
+}
+
+.container article .form-gopy{
+    float: left;
+    max-width: 660px;
+    margin: 0 auto;
+    padding: 10px 40px;
+    margin: 0 0 30px 37px;
+    background-color: rgb(239, 239, 239);
+    border: 5px inset;
+    border-bottom: 3px ridge rgb(220, 220, 193);
+    border-right:  5px ridge rgb(211, 211, 189);
+
+}
+
+.container article .form-gopy .form-group .font-chu{
+    font-size:25px;
+    font-weight: bold;
+}
+
+.container article .form-gopy .form-group{
+    margin: 10px 2px;
+}
+.container article .form-gopy .form-group  a{
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+.container article .form-gopy .form-group .form-input{
+    font-size: 40px;
+}
+
+.container article .form-gopy .form-group legend{
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.container article .form-gopy .form-control{
+    width: 655px;
+    height:40px;
+    margin: 10px 0 10px 0;
+    outline: none;
+    box-shadow: 0 0 3px gray;
+    border-radius: 3px;
+    border: none;
+}
+.container article .form-gopy .form-group label{
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    display: block;
+    margin: 20px 0 10px 0;
+}
+.container article .form-gopy .form-control:focus{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 2px rgb(201, 161, 161);
+    border: 2px solid rgb(217, 217, 201);
+    font-size: 17px;
+}
+.container article .form-gopy .form-group textarea{
+    width: 655px;
+    height: 170px;
+}
+.container article .form-gopy .form-button{
+    border: none;
+    box-shadow: 0 0 4px rgb(46, 42, 42);
+    border-radius: 3px;
+    outline: none;
+    margin: 10px 40px 10px 0;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+  
+}
+.container article .form-gopy .form-button:hover{
+    border: none;
+    box-shadow: 0 0 4px rgb(46, 42, 42);
+    border-radius: 3px;
+    outline: none;
+    background-color: #cc095a;
+    color: white;
+}
+.container article .form-gopy .form-button:focus{
+    box-shadow: 0 0 4px rgb(230, 203, 193);  
+}
+
+
+/*-------------- Hoạt động giảng dạy----------------*/
+
+
+.container aside .box-tochuc1 > .hdday-luotxem{
+    height: 400px;
+    width: 376px;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    border: none;
+    box-shadow: 0 0 4px gray;
+    margin-left: 1px;
+}
+.container aside .box-tochuc1 > .hdday-luotxem .hdday-table{
+    width: 376px;
+    border-collapse: collapse;
+}
+.container aside .box-tochuc1 > .hdday-luotxem .hdday-table tr{
+    height: 50px;
+    border-bottom: 1px solid rgb(246, 239, 239);
+}
+.container aside .box-tochuc1 > .hdday-luotxem .hdday-table .tr-shadow{
+    background-color: #f4eded;
+}
+.container aside .box-tochuc1 > .hdday-luotxem .hdday-table .tr-shadow:hover{
+    background-color: #e4e0e0;
+}
+.container aside .box-tochuc1 > .hdday-luotxem .hdday-table tr .td1{
+  padding-left: 25px;
+  font-weight: 600;
+  font-size: 17px;
+}
+.container aside .box-tochuc1 > .hdday-luotxem .hdday-table tr .td1 img{
+    padding-right: 15px;
+}
+
+.container aside .box-tochuc1 > .hdday-luotxem .hdday-table tr .td2{
+    text-align: left;
+    padding-right: 60px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.container article .box-hdday{
+    float: left;
+    width: 790px;
+    height: 2600px;
+}
+.container article .box-hdday > .hdday-title{
+    margin: 0 auto;
+    height: 45px;
+    width: 760px;
+    border-left: 8px solid #c90741;
+    border-bottom: 2px solid #c90741;
+    background-color: #fdf7f7;
+}
+.container article .box-hdday > .hdday-title h1{
+    padding: 5px 0 0 30px;
+    color: #c90741;
+    font-size: 30px;
+}
+
+.container article .box-hdday .hdday-noidung{
+    width: 785px;
+    height: 205px;
+    border-bottom: 1px dotted gray;
+    margin: 20px 0 10px 10px;
+}
+
+.container article .box-hdday .hdday-noidung img{
+    float: left;
+    margin: 0 20px 10px 10px;
+    width: 270px;
+    height: 170px;
+    box-shadow: 2px 3px 7px gray;  
+}
+.container article .box-hdday .hdday-noidung .hdday-font h3{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 25px;
+    margin: 0px 0px 8px;
+    text-align: left;
+    width: 790px;
+}
+.container article .box-hdday .hdday-noidung .hdday-font i{
+    color:#888888;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 8px 0px;
+    padding: 0px 0px 0px 3px;
+    text-align: left;
+}
+.container article .box-hdday .hdday-noidung .hdday-font  p{
+    width: 790px;
+    color:#333333;
+    font-family:-apple-system;
+    line-height: 22px;
+    margin: 5px 0px 15px;
+    text-align: left;
+}
+
+/*--------------HỎI ĐÁP ----------------*/
+
+.container article .box-hoidap{
+    position: fixed;
+    bottom: 40px;
+    right: 80px;
+    border-radius: 10px;
+}
+
+.container article .box-hoidap .hoidap-img{
+    position: fixed;
+    bottom: 50px;
+    right: 5px;
+    width: 70px;
+}
+
+.container article .box-hoidap .hoidap-title{
+    position: relative;
+    width: 360px;
+    height: 60px;
+    background-color: #cc095a;
+    border-radius: 10px 10px 0 0 ;
+    display: none;
+}
+
+.container article .box-hoidap .hoidap-title .icon{
+    width: 40px;
+    height: 37px;
+    margin: 10px 25px 0 10px;
+}
+.container article .box-hoidap .hoidap-title .box-title {
+   display: flex;
+}
+.container article .box-hoidap .hoidap-title .noidung h4{
+    margin-top: 12px;
+    margin-right: 75px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #fdf7f7;
+    font-size: 20px;
+    line-height: 0;
+}
+.container article .box-hoidap .hoidap-title .noidung p{
+    color: #fdf7f7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 210px;
+    line-height: 0;
+}   
+
+.container article .box-hoidap .hoidap-title .close{
+    float: right; 
+    position: absolute;
+    width: 20px;
+    margin: 7px 3px 0 0;
+}
+
+.container article .box-hoidap:hover .hoidap-title{
+    display: block;
+}
+.container article .box-hoidap .hoidap-nd{
+    overflow-y: scroll;
+    height: 285px;
+    width: 360px;
+    border-bottom: 1px solid rgb(208, 201, 201);
+    background-color: #f9f7f7;
+    display: none;
+}
+.container article .box-hoidap:hover .hoidap-nd{
+    display: block;
+}
+.container article .box-hoidap .hoidap-nd  .box-nd{
+    width: 300px;
+    height: 650px;
+    border: none;
+    box-shadow: 0 0 4px gray;
+    border-radius: 3px;
+    outline: none;
+    margin: 20px;
+}
+.container article .box-hoidap .hoidap-nd  .box-nd p{
+    font-size: 19px;
+    float: left;
+    padding: 0 5px 0 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.container article .box-hoidap .hoidap-nd  .box-nd label{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: inherit;
+    margin: 10px 0 10px 10px;
+}
+.container article .box-hoidap .hoidap-nd  .box-nd input{
+    border: none; 
+    height: 30px;
+    width: 260px;
+    border-radius: 4px;
+    box-shadow: 0 0 3px gray;
+    color: black;
+    padding-left: 10px;
+    font-size: 15px;
+    margin: 10px 0 10px 10px;
+    outline: none;
+}
+.container article .box-hoidap .hoidap-nd  .box-nd input::placeholder{
+    text-align: right;
+    display: block;
+}
+.container article .box-hoidap .hoidap-nd  .box-nd .country::placeholder{
+    text-align: left;
+    
+}
+.container article .box-hoidap .hoidap-nd  .box-nd select{
+    border: none; 
+    height: 35px;
+    width: 270px;
+    border-radius: 4px;
+    box-shadow: 0 0 3px gray;
+    color: black;
+    padding-left: 10px;
+    font-size: 15px;
+    margin: 10px 0 10px 10px;
+    outline: none;
+}
+.container article .box-hoidap .hoidap-nd  .box-nd textarea{
+    border: none; 
+    height: 80px;
+    width: 260px;
+    border-radius: 4px;
+    box-shadow: 0 0 3px gray;
+    color: black;
+    padding-left: 10px;
+    font-size: 15px;
+    margin: 10px 0 10px 10px;
+    outline: none;
+}
+
+.container article .box-hoidap .hoidap-button{
+    background-color: rgb(239, 193, 193);
+    height: 60px;
+    width: 360px;
+    border-radius: 0 0 10px 10px ;
+    text-align: center;
+    border: none;
+    display: none;
+}
+.container article .box-hoidap:hover .hoidap-button{
+    display: block;
+}
+
+.container article .box-hoidap .hoidap-button button{
+    width: 140px;
+    height: 37px;
+    border-radius: 5px;
+    border: none;
+    background-color: #e2507c;
+    color: #f4eded;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.container article .box-hoidap .hoidap-button button:hover{
+    background-color: #888888;
+}
+
+
+
+/*--------------Link internet-----------------*/
+.container article .box-internet{
+    position: fixed;
+    top: 100px;
+    left: 30px;
+    border: none;
+    box-shadow: -1px 0 10px gray; 
+    background-color: rgb(196, 190, 190);
+    width: 45px;
+    height: 290px;
+    border-radius: 14px;
+}
+.container article .box-internet img{
+    padding-bottom: 35px;
+    width: 45px;
+}
+.container article .box-internet .box{
+    display: flex;  
+    position: relative;
+}
+
+.container article .box-internet .box .box-thongtin{
+    position: absolute;
+    margin-left: 50px;
+	border-top: 12px solid transparent;
+	border-right: 70px solid #e0d7d7;
+	border-bottom: 30px solid transparent;
+    display: none;
+    border: 12px 90px 30px;
+    border-radius: 0 5px 5px 0;
+
+    
+}
+.container article .box-internet .box:hover .box-thongtin{
+    display: block;
+}
+.container article .box-internet .box .box-thongtin2{
+    position: absolute;
+    display: none;
+    margin-left: 118px;
+    width: 160px;
+    height: 60px;
+    border-radius: 3px 40px 40px 45px;  
+    backdrop-filter: blur(10px);
+    background: transparent;
+}
+.container article .box-internet .box .box-thongtin2 h3{
+    color: #078c9b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    line-height: 0;
+    padding-left: 10px;
+    font-weight: 500;
+}
+.container article .box-internet .box:hover .box-thongtin2{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
