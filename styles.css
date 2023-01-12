@@ -11,7 +11,7 @@ body{
     background-color: white;
 }
 .container header{
-    background-image: url(../Tainguyen/Background/banner.png);
+    background-image: url(Tainguyen/Background/banner.png);
     background-size: 100% 100%;
     border-radius: 5px;
     height: 360px;
@@ -126,7 +126,7 @@ body{
 
 .container  aside .box1 .box{
     border: 4px solid #cc095a;
-    background: url("../Tainguyen/Background/icons/right-arrow.png") no-repeat  right;
+    background: url("Tainguyen/Background/icons/right-arrow.png") no-repeat  right;
     background-size: 20px 20px;
     width: 370px;
     height: 60px;
@@ -136,7 +136,7 @@ body{
     
 }
 .container  aside .box1 .box:hover{
-    background: url("../Tainguyen/Background/icons/arrowhover.png") no-repeat  right;
+    background: url("Tainguyen/Background/icons/arrowhover.png") no-repeat  right;
     background-size: 20px 20px;
     border: 4px solid #f83d75;
     background-color: #f83d75;
