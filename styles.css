@@ -1290,66 +1290,6 @@ body{
 
 
 
-/*--------------Link internet-----------------*/
-.container article .box-internet{
-    position: fixed;
-    top: 100px;
-    left: 30px;
-    border: none;
-    box-shadow: -1px 0 10px gray; 
-    background-color: rgb(196, 190, 190);
-    width: 45px;
-    height: 290px;
-    border-radius: 14px;
-}
-.container article .box-internet img{
-    padding-bottom: 35px;
-    width: 45px;
-}
-.container article .box-internet .box{
-    display: flex;  
-    position: relative;
-}
-
-.container article .box-internet .box .box-thongtin{
-    position: absolute;
-    margin-left: 50px;
-	border-top: 12px solid transparent;
-	border-right: 70px solid #e0d7d7;
-	border-bottom: 30px solid transparent;
-    display: none;
-    border: 12px 90px 30px;
-    border-radius: 0 5px 5px 0;
-
-    
-}
-.container article .box-internet .box:hover .box-thongtin{
-    display: block;
-}
-.container article .box-internet .box .box-thongtin2{
-    position: absolute;
-    display: none;
-    margin-left: 118px;
-    width: 160px;
-    height: 60px;
-    border-radius: 3px 40px 40px 45px;  
-    backdrop-filter: blur(10px);
-    background: transparent;
-}
-.container article .box-internet .box .box-thongtin2 h3{
-    color: #078c9b;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 25px;
-    line-height: 0;
-    padding-left: 10px;
-    font-weight: 500;
-}
-.container article .box-internet .box:hover .box-thongtin2{
-    display: block;
-}
-
-
-
 
 
 
